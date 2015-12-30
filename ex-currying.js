@@ -1,20 +1,25 @@
-// var dragon = 
-//   name =>
-//     size =>
-//       element =>
-//         name + ' is a ' +
-//         size + ' dragon that breathes ' +
-//         element + '!'
+// var dragon = (name, size, element) =>
+//   name + ' is a ' +
+//   size + ' dragon that breathes ' +
+//   element + '!'
 
-// var output = dragon('Karo')('large')('ice')
+// console.log(dragon('Karo','tiny','lightning'))
 
-// console.log(output)
+var dragon = 
+  name =>
+    size =>
+      element =>
+        name + ' is a ' +
+        size + ' dragon that breathes ' +
+        element + '!'
 
-var dragon = (name, size, element) =>
-  name + ' is a ' +
-  size + ' dragon that breathes ' +
-  element + '!'
+// var karoDragon = dragon('Karo')
+// var largeDragon = karoDragon('large')
+// console.log(largeDragon('lightning'))
+
+var output = dragon('Karo')('large')('ice')
+
+console.log(output)
 
 
-console.log(dragon('Karo','tiny','lightning'))
 
